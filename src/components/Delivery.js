@@ -6,9 +6,9 @@ const Delivery = () => {
       <h3 className="text-orange-500 font-bold text-2xl text-center">
         Quick Delivery App
       </h3>
-      <div className="w-[1240px]  mx-auto grid md:grid-cols-2">
+      <div className="w-full md:w-[1240px] mx-auto grid md:grid-cols-2">
         <img
-          className="w-[550px] mx-auto  my-4"
+          className="w-full  md:w-[550px] mx-auto  my-4"
           src="https://res.cloudinary.com/ehizeex-shop/image/upload/v1672676822/NetflixApp/FC_two_phones.6ec9a842f905769677f9_m91off.webp"
         />
         <div className="flex  flex-col justify-center">
@@ -16,7 +16,7 @@ const Delivery = () => {
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Limitless Convenience on-demand
           </h1>
-          <p>
+          <p className="text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
             molestiae delectus culpa hic assumenda, voluptate reprehenderit
             dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit,
